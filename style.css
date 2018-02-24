@@ -56,10 +56,10 @@
 		border-radius: 1px;
 		line-height: 40px;
 	}
-	#container #left_box .box_list #chan_list{
+	#container #left_box .box_list #fourchan_list, #container #left_box .box_list #halfchan_list{
 		columns: 2;
 	}
-	#container #left_box .box_list #game_list{
+	#container #left_box .box_list #game_list, #container #left_box .box_list #art_list, #container #left_box .box_list #reddit_list{
 		line-height: 30px;
 	}
 	.dropdown_content{
