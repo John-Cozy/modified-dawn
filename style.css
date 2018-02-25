@@ -7,7 +7,7 @@
 	body {
 		background: url("background/background_02.png") no-repeat center center fixed;
 		background-size: cover;
-		
+
 	}
 	#container {
 		height: 350px;
@@ -56,7 +56,10 @@
 		position: relative;
 		border-radius: 1px;
 		line-height: 40px;
-	}	
+	}
+	#container #left_box .box_list:hover, #container #left_box .box_list_text:hover{
+		color: #FAC0DE;
+	}
 	/*#container #left_box .box_list #game_list{
 		background-color: #1C0C3E;
 	}
@@ -65,19 +68,19 @@
 	}
 	#container #left_box .box_list #fourchan_list{
 		background-color: #2A0B38;
-	} 
+	}
 	#container #left_box .box_list #halfchan_list{
 		background-color: #130D41;
 	}
 	#container #left_box .box_list #reddit_list{
 		background-color: #130D41;
 	}*/
-	#container #left_box .box_list #fourchan_list, 
+	#container #left_box .box_list #fourchan_list,
 	#container #left_box .box_list #halfchan_list{
 		columns: 2;
 	}
-	#container #left_box .box_list #game_list, 
-	#container #left_box .box_list #art_list, 
+	#container #left_box .box_list #game_list,
+	#container #left_box .box_list #art_list,
 	#container #left_box .box_list #reddit_list{
 		line-height: 30px;
 	}
@@ -88,7 +91,7 @@
 		font-weight: bold;
 		letter-spacing: 1px;
 		text-decoration: none;
-		
+
 	}
 	#container #left_box .box_list .dropdown_content:hover{
 		color: #FAC0DE;
@@ -178,4 +181,3 @@
 		list-style: none;
 		margin: 0px 5px;
 	}
-
