@@ -76,12 +76,14 @@
 		background-color: #130D41;
 	}*/
 	#container #left_box .box_list #fourchan_list,
-	#container #left_box .box_list #halfchan_list{
+	#container #left_box .box_list #halfchan_list,
+	#container #left_box .box_list #youtube_list{
 		columns: 2;
 	}
 	#container #left_box .box_list #game_list,
 	#container #left_box .box_list #art_list,
-	#container #left_box .box_list #reddit_list{
+	#container #left_box .box_list #reddit_list,
+	#container #left_box .box_list #youtube_list{
 		line-height: 30px;
 	}
 	#container #left_box .box_list .dropdown_content{
@@ -167,13 +169,13 @@
 		width: 100%;
 		text-align: center;
 		position: relative;
-		margin-top: 30px;
+		margin-top: 40px;
 	}
 	#container #right_box #social_box .box_list {
 		border-radius: 2px;
 		box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
-		height: 25px;
-		width: 25px;
+		height: 15px;
+		width: 15px;
 		float: bottom;
 		display: inline-block;
 		list-style: none;
